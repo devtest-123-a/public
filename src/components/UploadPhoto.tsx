@@ -63,7 +63,7 @@ const UploadPhoto: React.FC = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-fade-in">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-fade-in">
           <div className="absolute inset-0" onClick={() => setIsOpen(false)}></div>
           
           <div className="relative glass-card w-full max-w-2xl p-6 z-10 animate-scale-in">
